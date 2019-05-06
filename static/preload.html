@@ -1,0 +1,25 @@
+<!doctype html>
+<title>Preloader</title>
+<script>
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}
+
+const imageURLs = [
+    '/kitten0.jpg',
+    '/kitten1.jpg',
+    '/kitten2.jpg',
+    '/kitten3.jpg',
+    '/kitten4.jpg',
+    '/kitten5.jpg',
+    '/kitten6.jpg',
+    '/kitten7.jpg',
+    '/kitten8.jpg',
+    '/kitten9.jpg',
+    '/kitten10.jpg',
+];
+
+for (const url of imageURLs) preloadImage(url);
+</script>
